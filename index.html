@@ -1,140 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rose Message</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #fadede;
-            flex-direction: column;
-            font-family: 'Sacramento', cursive;
-        }
-        .container {
-            width: 800px;
-            height: 400px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            text-align: center;
-        }
-        h1 {
-            color: #FE7696;
-            font-size: 34px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        .letter {
-            width: 600px;
-            height: 400px;
-            display: inline-block;
-        }
-        .rose {
-            width: 200px;
-            height: 200px;
-            position: absolute;
-            right: 0;
-            display: inline-block;
-            animation: float 5s infinite ease-in-out;
-            transform: translateY(40%);
-        }
-        .petal {
-            width: 50px;
-            height: 50px;
-            background: #fe7696;
-            border-radius: 50%;
-            position: absolute;
-            box-shadow: 0 0 15px #D1123F;
-            z-index: 2;
-            animation: bloom 10s infinite;
-        }
-        .petal:nth-child(2) {
-            transform: rotate(90deg);
-            left: -10px;
-            animation: bloom 10s infinite;
-        }
-        .petal:nth-child(3),
-        .petal:nth-child(4) {
-            width: 40px;
-            height: 40px;
-            left: 5px;
-            top: -15px;
-            z-index: 1;
-            background: #f03a64;
-            animation: bloom 10s infinite;
-        }
-        .petal:nth-child(5) {
-            width: 50px;
-            height: 50px;
-            border-radius: 20px;
-            left: 20px;
-            top: -30px;
-            z-index: 0;
-            background: #d1123f;
-        }
-        .leaf {
-            position: absolute;
-            top: 120px;
-            left: -115px;
-        }
-        .stem {
-            width: 10px;
-            height: 100px;
-            background: #8ac78a;
-            border-radius: 5px;
-        }
-        .leafs {
-            width: 50px;
-            height: 40px;
-            border-radius: 50%;
-            background: #77a377;
-            position: absolute;
-            top: 0;
-            left: 100px;
-            z-index: 49;
-        }
-        .leafs:nth-child(2) {
-            width: 40px;
-            height: 20px;
-            top: 40px;
-            left: 140px;
-            transform: rotate(120deg);
-        }
-        @keyframes float {
-            50% {
-                transform: translateY(35%);
-            }
-        }
-        @keyframes bloom {
-            50% {
-                transform: scale(1.1);
-            }
-        }
-    </style>
-</head>
+<title>Rose</title>	
+<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 <body>
-    <div class="container">
-        <div class="letter">
-            <h1>Your smile is as beautiful as a rose, I hope you can always smile. (✿◡w◡)</h1>
-        </div>
-        <div class="rose">
-            <div class="flower">
-                <div class="petal"></div>
-                <div class="petal"></div>
-                <div class="petal"></div>
-                <div class="petal"></div>
-                <div class="petal"></div>
-            </div>
-            <div class="leaf">
-                <div class="stem"></div>
-                <div class="leafs"></div>
-                <div class="leafs"></div>
-            </div>
-        </div>
-    </div>
+<div class="container">
+	<div class="glass"></div>
+	<div class="thorns">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div class="glow"></div>
+	<div class="rose-leaves">
+		<div></div>
+		<div></div>
+	</div>
+	<div class="rose-petals">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div class="sparkles">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
 </body>
 </html>
+
+
+
